@@ -2,19 +2,20 @@
     max-width: 1440px;
     width: 100%;
     height: 100vh;
-    margin: 0 auto;
 }
 header{
-    /* border: 5px solid red; */
+    background-color: #f6f8f9;
     display: flex;
     padding: 20px 20px 20px 20px;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: inherit;
+    z-index: 2;
 }
 .logo{
     display: flex;
     color: #fa6980;
-    /* background-color: red; */
     animation-name: logo;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -54,3 +55,110 @@ li{
     color: black;
     font-weight: bold;
 }
+/* section1 */
+.section1{
+    width: 100%;
+    height: 599px;
+    background-image: url(../photos/Image.png);
+    background-repeat: no-repeat;
+
+}
+.box_news{
+    width: 602px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(25%, 50%);
+}
+.world_news{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 40px;
+    padding-bottom: 39px;
+    border-bottom: 2px solid #ffffff;
+}
+.amzplc{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.img_text{
+    width: 561px;
+    height: 43px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.learn_more{
+    background-color: #fa6980;
+    width: 134px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn_more:hover{
+    background-color: green;
+}
+.more{
+    font-size: 11px;
+    color: #ffffff;
+}
+/* section1 meore nawili */
+.news{
+    width: 48%;
+    height: 599px;
+    margin-left: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.more_news{
+    width: 75%;
+    color: #202124;
+    font-size: 24px;
+    border-bottom: 2px solid #ebeded;
+    padding-bottom: 39px;
+    margin-bottom: 39px;
+}
+h3{
+    width: 80%;
+    font-size: 16px;
+    color: #fa6980;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h4{
+    width: 80%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #202124;
+    margin-bottom: 10px;
+}
+.info{
+    width: 80%;
+}
+.info:hover{
+    border-bottom: 2px solid black;
+    background-color: green;
+    text-align: center;
+
+}
+.info1{
+    font-size: 16px;
+    color: #a6adb4;
+    margin-bottom: 12px;
+}
+.time{
+    width: 80%;
+    font-size: 13px;
+    color: #a6adb4;
+}
+.time::before{ 
+    content: "\f017";
+    font-family: "Font Awesome 6 Free";
+    display: inline-block;
+    margin-right: 10px;
+}
+/* section 2 */
