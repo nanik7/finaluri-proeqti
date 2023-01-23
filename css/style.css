@@ -345,7 +345,6 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-
 .icone:hover {
     width: 1rem;
     height: 1rem;
@@ -438,12 +437,6 @@ footer {
         max-width: 480px;
         width: 100%;
     }
-    .nav{
-        display: none;
-    }
-    ul>li{
-        display: none;
-    }
     .section1{
         width: 100%;
     }
@@ -461,6 +454,7 @@ footer {
         flex-direction: column;
     }
     .section3{
+        width: 100%;
         flex-direction: column;
         margin-top: 30px;
     }
